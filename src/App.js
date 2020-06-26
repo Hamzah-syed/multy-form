@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/App.css";
 import "./css/tailwind.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 //Context
 import { GlobalContextProvider } from "./globalContext/GlobalContext";
 //pages
