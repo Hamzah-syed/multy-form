@@ -21,6 +21,7 @@ const Login = () => {
     );
     if (isValid.length) {
       console.log(isValid);
+      swal("Success", "Login Successfully", "success");
     } else {
       // alert("user not found")
       swal("Error", "Invalid Email Or Password!", "error");
